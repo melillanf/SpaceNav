@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_TqmzsFi2Ee2kZb8VTZGBeg">
+  <modelElement href="SpaceNav-core.uml#_UuHfIFi2Ee2kZb8VTZGBeg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VIsiUFi2Ee2kZb8VTZGBeg" source="_VItJYFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4b4wFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VIsiUVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4dG4Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VIsiUli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VIsiU1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4b4wVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIsiVFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIsiVVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VIsiVli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="spr" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3FN4Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIsiV1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VIsiWFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VI4IgFi2Ee2kZb8VTZGBeg" sourceAnchor="459.0,87.0" targetAnchor="0.0,148.0" superClass="_VI_dQFi2Ee2kZb8VTZGBeg" subClass="_VIV9AFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U1FCwFi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_Vd_c4Fi2Ee2kZb8VTZGBeg" sourceX="30" targetX="-30" targetY="354"/>
+    <bendpoints xmi:id="_Vd_c4Vi2Ee2kZb8VTZGBeg" sourceX="30" sourceY="-354" targetX="-30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_VI4vkFi2Ee2kZb8VTZGBeg" sourceAnchor="438.0,46.0" targetAnchor="0.0,148.0" superClass="_VI_dQFi2Ee2kZb8VTZGBeg" subClass="_VGJkoFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U1HfAFi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_Vd-OwFi2Ee2kZb8VTZGBeg" sourceX="40" targetX="-30" targetY="185"/>
+    <bendpoints xmi:id="_Vd-10Fi2Ee2kZb8VTZGBeg" sourceX="40" sourceY="-185" targetX="-30"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VI4vkVi2Ee2kZb8VTZGBeg" target="_VI_dQFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4PrgFi2Ee2kZb8VTZGBeg"/>
+    <nameVisual xmi:id="_VI9oEFi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VI9oEVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="spr" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3ongVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI-PIli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI-PIVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VI-PIFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4PrgVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI-2MVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI-2MFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VJudEFi2Ee2kZb8VTZGBeg" source="_VKBYAFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4dG4Vi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VJ1KwFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4dt8Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VJ0jsFi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VJ0jsVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4dG4li2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ2Y4Vi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VJ2Y4Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VJ0jsli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="spr" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3KtcFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ2Y41i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VJ2Y4li2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VJvEIFi2Ee2kZb8VTZGBeg" source="_VKBYAFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4fjIVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VJ1KxFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4gKMFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VJ1KwVi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VJ1Kwli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4fjIli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ2_8li2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VJ2_8Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VJ1Kw1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="txBala" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3NJsFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ4OEFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VJ3nAFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VJ6qUFi2Ee2kZb8VTZGBeg" sourceAnchor="0.0,279.0" targetAnchor="349.0,403.0" target="_VKBYAFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4mQ0Vi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_VeArAFi2Ee2kZb8VTZGBeg" sourceX="-732" targetY="334"/>
+    <stereotypes xmi:id="_VJ6qUVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4m34Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VJ6qUli2Ee2kZb8VTZGBeg" text="">
+      <visualProperties xmi:id="_VeMRMFi2Ee2kZb8VTZGBeg" position="393.83020271858345,-13.31045770581727"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VJ6qU1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4mQ0li2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeLDEFi2Ee2kZb8VTZGBeg" position="-51.26520029005201,-31.138428321267497"/>
+      <visibility xmi:id="_VJ6qVFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VJ6qVVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VJ6qVli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="nave" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3Z-AVi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeM4QFi2Ee2kZb8VTZGBeg" position="111.3997771100353,301.85777580561535"/>
+      <stereotypes xmi:id="_VJ6qV1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3alEFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VJ6qWFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VJ6qWVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VJ74cFi2Ee2kZb8VTZGBeg" source="_VKBYAFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4eVAFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VJ74cVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4e8EFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VJ74cli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VJ74c1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4eVAVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ74dFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VJ74dVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VJ74dli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="sonidoHerido" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3LUgVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VJ74d1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VJ74eFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VKAw8Fi2Ee2kZb8VTZGBeg" source="_VKBYAFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4e8EVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VKAw8Vi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4fjIFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VKAw8li2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VKAw81i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4e8Eli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKAw9Fi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKAw9Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VKAw9li2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="soundBala" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3L7kVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKAw91i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKAw-Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VKeD8Fi2Ee2kZb8VTZGBeg" sourceAnchor="393.0,0.0" targetAnchor="142.0,175.0" target="_VKkxoFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4jNgFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VKhHQFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4j0kFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VKf5IFi2Ee2kZb8VTZGBeg" text="">
+      <visualProperties xmi:id="_VeH_wFi2Ee2kZb8VTZGBeg" position="-14.806409735561147,100.07088588093626"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VKf5IVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4jNgVi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeGxoFi2Ee2kZb8VTZGBeg" position="0.5696164089520153,-65.71154343328107"/>
+      <visibility xmi:id="_VKiVYVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKiVYFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VKggMFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3T3YFi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeH_wVi2Ee2kZb8VTZGBeg" position="-13.813075827715352,233.2180583666394"/>
+      <stereotypes xmi:id="_VKiVZFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3UecFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKiVY1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKiVYli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VKeD8Vi2Ee2kZb8VTZGBeg" source="_VKkxoFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4uzsVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VKhuUli2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4wB0Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VKhHQVi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VKhuUFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4uzsli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKi8cVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKi8cFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VKhuUVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="batch" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3qcsFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKi8c1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKi8cli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VKkKkFi2Ee2kZb8VTZGBeg" source="_VKkxoFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4wB0Vi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VKkKkVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4wo4Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VKkKkli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VKkKk1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4wB0li2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkKlFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkKlVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VKkKlli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="font" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3rDwFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkKl1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkKmFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VKwX0Fi2Ee2kZb8VTZGBeg" sourceAnchor="0.0,106.0" targetAnchor="172.0,175.0" target="_VKkxoFi2Ee2kZb8VTZGBeg" source="_VLD50Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4qiQVi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_VeAD8Fi2Ee2kZb8VTZGBeg" sourceX="-704" targetY="402"/>
+    <stereotypes xmi:id="_VK0CMFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4rJUFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VKxl8Fi2Ee2kZb8VTZGBeg" text="">
+      <visualProperties xmi:id="_VeCgMFi2Ee2kZb8VTZGBeg" position="595.4571739136408,-16.53098028233802"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VKxl8Vi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4qiQli2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeBSEVi2Ee2kZb8VTZGBeg" position="-55.15997530602057,-33.95062349933352"/>
+      <visibility xmi:id="_VK6v4Vi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VK6v4Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VKzbIFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3ig4Fi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeCgMVi2Ee2kZb8VTZGBeg" position="541.043342850964,368.9301936929229"/>
+      <visibility xmi:id="_VK6v41i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VK6v4li2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VK0CMVi2Ee2kZb8VTZGBeg" source="_VLD50Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4sXcFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VK7W9Fi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4s-gFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VK7W8Vi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VK7W8li2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4sXcVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VK9zMVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VK9zMFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VK7W81i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="backgroundTx" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3jvAVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VK-aQVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VK-aQFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VK0CMli2Ee2kZb8VTZGBeg" source="_VLD50Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4tlkFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VK7-Ali2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4uMoFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VK7W9Vi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VK7-AFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4tlkVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VK_oYFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VK_BUFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VK7-AVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="backgroundSpr" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3lkMFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VK_oYli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VK_oYVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VK13YFi2Ee2kZb8VTZGBeg" source="_VLD50Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4uMoVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VK8lEli2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4uzsFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VK7-A1i2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VK8lEFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4uMoli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VLAPcli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLAPcVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VK8lEVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="batch" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3mLQVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VLA2gFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLAPc1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VLCrsFi2Ee2kZb8VTZGBeg" source="_VLD50Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4rwYFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VLDSwFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4rwYli2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VLDSwVi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VLDSwli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4rwYVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VLDSw1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLDSxFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VLDSxVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="camera" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3jH8Vi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VLDSxli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLDSx1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VLySkFi2Ee2kZb8VTZGBeg" sourceAnchor="204.0,0.0" targetAnchor="284.0,87.0" target="_VKkxoFi2Ee2kZb8VTZGBeg" source="_VL5nUFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4gKMVi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_VeAD8Vi2Ee2kZb8VTZGBeg" sourceY="-143" targetX="277"/>
+    <stereotypes xmi:id="_VL0Hw1i2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4hYUFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VL0HwFi2Ee2kZb8VTZGBeg" text="">
+      <visualProperties xmi:id="_VeE8cFi2Ee2kZb8VTZGBeg" position="-13.259948888216854,14.354080950096758"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VL0HwVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4gKMli2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeDuUFi2Ee2kZb8VTZGBeg" position="1.3456086135785768,-66.25220232463028"/>
+      <visibility xmi:id="_VL188Vi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL188Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VL0Hwli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="game" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3SCMFi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeE8cVi2Ee2kZb8VTZGBeg" position="263.4345869639448,-81.39767991679278"/>
+      <visibility xmi:id="_VL2kAVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VL2kAFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VL0HxFi2Ee2kZb8VTZGBeg" source="_VL5nUFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4h_YFi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VL3LEFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4imcFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VL2kA1i2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VL2kBFi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4h_YVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VL4ZMVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL4ZMFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VL2kBVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="camera" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3TQUFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VL4ZM1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VL4ZMli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMGboFi2Ee2kZb8VTZGBeg" sourceAnchor="0.0,249.0" targetAnchor="117.0,137.0" target="_VItJYFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4m34Vi2Ee2kZb8VTZGBeg"/>
+    <bendpoints xmi:id="_VeBSEFi2Ee2kZb8VTZGBeg" sourceX="-174" targetY="304"/>
+    <stereotypes xmi:id="_VMI34Vi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4oGAFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMIQ0Vi2Ee2kZb8VTZGBeg" text="">
+      <visualProperties xmi:id="_VePUgFi2Ee2kZb8VTZGBeg" position="148.3731595110337,-13.458324831411915"/>
+    </nameVisual>
+    <sourceRole xmi:id="_VMIQ0li2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4m34li2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeOGYFi2Ee2kZb8VTZGBeg" position="-51.86936922268251,-31.330540414038296"/>
+      <visibility xmi:id="_VMOXcFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMNwZVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMI34Fi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="tierra" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3bMIFi2Ee2kZb8VTZGBeg"/>
+      <visualProperties xmi:id="_VeP7kFi2Ee2kZb8VTZGBeg" position="177.95273413458108,271.83520175718445"/>
+      <visibility xmi:id="_VMOXcli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMOXcVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMHpwFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4j0kVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMNJU1i2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4kboFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMNJUFi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMNJUVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4j0kli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMRawFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMQzsFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMNJUli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="camera" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3UecVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMRawli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMRawVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMHpwVi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4kboVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMNwYFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4lCsFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMNJVFi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMNJVVi2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4kboli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMRaxVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMRaxFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMNJVli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="batch" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3VFgVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMSB0Vi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMSB0Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMIQ0Fi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4lCsVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMNwZFi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4lpwFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMNwYVi2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMNwYli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4lCsli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMSB1Fi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMSB01i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMNwY1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="explosionSound" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3VskFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMSB1li2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMSB1Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMUeEFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4lpwVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMUeEVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4mQ0Fi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMUeEli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMUeE1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4lpwli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMUeFFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMUeFVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMUeFli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="gameMusic" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3WToVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMUeF1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMUeGFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMW6UFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4oGAVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMW6UVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4pUIFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMW6Uli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMW6U1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4oGAli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMW6VFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMW6VVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMW6Vli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="balls1" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3bzMVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMW6V1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMW6WFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMYIcFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4pUIVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMYIcVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4p7MFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMYIcli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMYIc1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4pUIli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMYIdFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMYIdVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMYIdli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="balls2" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3doYVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMYId1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMYIeFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_VMZ9oFi2Ee2kZb8VTZGBeg" source="_VMaksFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_U4p7MVi2Ee2kZb8VTZGBeg"/>
+    <stereotypes xmi:id="_VMZ9oVi2Ee2kZb8VTZGBeg" name="Reference">
+      <modelElement href="SpaceNav-core.uml#_U4qiQFi2Ee2kZb8VTZGBeg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_VMZ9oli2Ee2kZb8VTZGBeg" text=""/>
+    <sourceRole xmi:id="_VMZ9o1i2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="">
+      <modelElement href="SpaceNav-core.uml#_U4p7Mli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMZ9pFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMZ9pVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_VMZ9pli2Ee2kZb8VTZGBeg" aggregationKind="NONE" name="balas" navigable="true">
+      <modelElement href="SpaceNav-core.uml#_U3fdkVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMZ9p1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMZ9qFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VGJkoFi2Ee2kZb8VTZGBeg" name="Bullet" generalizations="_VI4vkFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UwCxwFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VGJkoVi2Ee2kZb8VTZGBeg" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VGKLsFi2Ee2kZb8VTZGBeg" label="+"/>
+    <operations xmi:id="_VGKLsVi2Ee2kZb8VTZGBeg" name="update">
+      <modelElement href="SpaceNav-core.uml#_UwGcIFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VGKLsli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VGKLs1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VGKLtFi2Ee2kZb8VTZGBeg" name="checkCollision">
+      <modelElement href="SpaceNav-core.uml#_U1G38Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VGKLtVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VGKLtli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VGKLt1i2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1G38li2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VGKLuFi2Ee2kZb8VTZGBeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VGKLuVi2Ee2kZb8VTZGBeg" name="b2">
+        <modelElement href="SpaceNav-core.uml#_U1G38Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLuli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKLu1i2Ee2kZb8VTZGBeg" name="Ball2">
+          <modelElement href="SpaceNav-core.uml#_UvuosFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VGKLvFi2Ee2kZb8VTZGBeg" name="Bullet">
+      <modelElement href="SpaceNav-core.uml#_U17-YFi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VGKLvVi2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VGKLvli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VGKLv1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VGKLwFi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U18ldVi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VGKLwVi2Ee2kZb8VTZGBeg" name="Bullet">
+          <modelElement href="SpaceNav-core.uml#_UwCxwFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VGKLwli2Ee2kZb8VTZGBeg" name="x">
+        <modelElement href="SpaceNav-core.uml#_U17-YVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLw1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKLxFi2Ee2kZb8VTZGBeg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VGKLxVi2Ee2kZb8VTZGBeg" name="y">
+        <modelElement href="SpaceNav-core.uml#_U17-Yli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLxli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKLx1i2Ee2kZb8VTZGBeg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VGKLyFi2Ee2kZb8VTZGBeg" name="xSpeed">
+        <modelElement href="SpaceNav-core.uml#_U18lcFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLyVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKLyli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VGKLy1i2Ee2kZb8VTZGBeg" name="ySpeed">
+        <modelElement href="SpaceNav-core.uml#_U18lcVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLzFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKLzVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VGKLzli2Ee2kZb8VTZGBeg" name="tx">
+        <modelElement href="SpaceNav-core.uml#_U18lcli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VGKLz1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VGKL0Fi2Ee2kZb8VTZGBeg" name="Texture">
+          <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VIV9AFi2Ee2kZb8VTZGBeg" name="Ball2" generalizations="_VI4IgFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UvuosFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VIV9AVi2Ee2kZb8VTZGBeg" position="19.0,158.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VIV9Ali2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VIV9A1i2Ee2kZb8VTZGBeg" name="x">
+      <modelElement href="SpaceNav-core.uml#_U3DYsFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VIV9BFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3D_wFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VIV9BVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VIV9Bli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VIV9B1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VIV9CFi2Ee2kZb8VTZGBeg" name="y">
+      <modelElement href="SpaceNav-core.uml#_U3D_wVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VIV9CVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3Em0Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VIV9Cli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VIV9C1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VIV9DFi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VIV9DVi2Ee2kZb8VTZGBeg" name="update">
+      <modelElement href="SpaceNav-core.uml#_Uv5AwFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIV9Dli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIV9D1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VIV9EFi2Ee2kZb8VTZGBeg" name="getArea">
+      <modelElement href="SpaceNav-core.uml#_Uv8EEFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIV9EVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIV9Eli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VIV9E1i2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U16JMli2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VIV9FFi2Ee2kZb8VTZGBeg" name="Rectangle">
+          <modelElement href="SpaceNav-core.uml#_U1B_cVi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VIV9FVi2Ee2kZb8VTZGBeg" name="checkCollision">
+      <modelElement href="SpaceNav-core.uml#_U1EbsFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIV9Fli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIV9F1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VIV9GFi2Ee2kZb8VTZGBeg" name="b2">
+        <modelElement href="SpaceNav-core.uml#_U1EbsVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9GVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9Gli2Ee2kZb8VTZGBeg" name="Ball2">
+          <modelElement href="SpaceNav-core.uml#_UvuosFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VIV9G1i2Ee2kZb8VTZGBeg" name="Ball2">
+      <modelElement href="SpaceNav-core.uml#_U147EFi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VIV9HFi2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VIV9HVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIV9Hli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VIV9H1i2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U16JMVi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VIV9IFi2Ee2kZb8VTZGBeg" name="Ball2">
+          <modelElement href="SpaceNav-core.uml#_UvuosFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VIV9IVi2Ee2kZb8VTZGBeg" name="x">
+        <modelElement href="SpaceNav-core.uml#_U147EVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9Ili2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9I1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VIV9JFi2Ee2kZb8VTZGBeg" name="y">
+        <modelElement href="SpaceNav-core.uml#_U15iIFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9JVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9Jli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VIV9J1i2Ee2kZb8VTZGBeg" name="size">
+        <modelElement href="SpaceNav-core.uml#_U15iIVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9KFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9KVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VIV9Kli2Ee2kZb8VTZGBeg" name="xSpeed">
+        <modelElement href="SpaceNav-core.uml#_U15iIli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9K1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9LFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VIV9LVi2Ee2kZb8VTZGBeg" name="ySpeed">
+        <modelElement href="SpaceNav-core.uml#_U15iI1i2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9Lli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9L1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VIV9MFi2Ee2kZb8VTZGBeg" name="tx">
+        <modelElement href="SpaceNav-core.uml#_U15iJFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9MVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9Mli2Ee2kZb8VTZGBeg" name="Texture">
+          <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VIV9M1i2Ee2kZb8VTZGBeg" name="draw">
+      <modelElement href="SpaceNav-core.uml#_U16wQFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VIV9NFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VIV9NVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VIV9Nli2Ee2kZb8VTZGBeg" name="batch">
+        <modelElement href="SpaceNav-core.uml#_U16wQVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VIV9N1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VIV9OFi2Ee2kZb8VTZGBeg" name="SpriteBatch">
+          <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VItJYFi2Ee2kZb8VTZGBeg" name="Earth" associationsIn="_VMGboFi2Ee2kZb8VTZGBeg" associationsOut="_VIsiUFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UwKtkFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VItJYVi2Ee2kZb8VTZGBeg" position="-1384.0,323.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VItJYli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VItJY1i2Ee2kZb8VTZGBeg" name="spr">
+      <modelElement href="SpaceNav-core.uml#_U3FN4Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VItJZFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3F08Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VItJZVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VItJZli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VItJZ1i2Ee2kZb8VTZGBeg" name="Sprite">
+        <modelElement href="SpaceNav-core.uml#_U1AKQFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VItJaFi2Ee2kZb8VTZGBeg" name="x">
+      <modelElement href="SpaceNav-core.uml#_U3F08Vi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VItJaVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3GcAFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VItJali2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VItJa1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VItJbFi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VItJbVi2Ee2kZb8VTZGBeg" name="getSprite">
+      <modelElement href="SpaceNav-core.uml#_UwNJ0Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VItJbli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VItJb1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VItJcFi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U2A24Fi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VItJcVi2Ee2kZb8VTZGBeg" name="Sprite">
+          <modelElement href="SpaceNav-core.uml#_U1AKQFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VItJcli2Ee2kZb8VTZGBeg" name="Earth">
+      <modelElement href="SpaceNav-core.uml#_U19zkFi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VItJc1i2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VItJdFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VItJdVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VItJdli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1_Bsli2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VItJd1i2Ee2kZb8VTZGBeg" name="Earth">
+          <modelElement href="SpaceNav-core.uml#_UwKtkFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VItJeFi2Ee2kZb8VTZGBeg" name="tx">
+        <modelElement href="SpaceNav-core.uml#_U1-aoFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VItJeVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VItJeli2Ee2kZb8VTZGBeg" name="Texture">
+          <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VItJe1i2Ee2kZb8VTZGBeg" name="x">
+        <modelElement href="SpaceNav-core.uml#_U1-aoVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VItJfFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VItJfVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VItJfli2Ee2kZb8VTZGBeg" name="draw">
+      <modelElement href="SpaceNav-core.uml#_U1_owFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VItJf1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VItJgFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VItJgVi2Ee2kZb8VTZGBeg" name="batch">
+        <modelElement href="SpaceNav-core.uml#_U2AP0Fi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VItJgli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VItJg1i2Ee2kZb8VTZGBeg" name="SpriteBatch">
+          <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VI_dQFi2Ee2kZb8VTZGBeg" name="Proyectil" abstractClass="true" associationsIn="_VI4vkVi2Ee2kZb8VTZGBeg" subclassedBy="_VI4IgFi2Ee2kZb8VTZGBeg _VI4vkFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_Ux9dUFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VI_dQVi2Ee2kZb8VTZGBeg" position="538.0,-257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VI_dQli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VI_dQ1i2Ee2kZb8VTZGBeg" name="xSpeed">
+      <modelElement href="SpaceNav-core.uml#_U3nZYFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VI_dRFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3nZYVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VI_dRVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VI_dRli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VI_dR1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VI_dSFi2Ee2kZb8VTZGBeg" name="ySpeed">
+      <modelElement href="SpaceNav-core.uml#_U3oAcFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VI_dSVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3oAcVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VI_dSli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VI_dS1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VI_dTFi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VI_dTVi2Ee2kZb8VTZGBeg" defaultValue="false" name="destroyed">
+      <modelElement href="SpaceNav-core.uml#_U3oAcli2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dTli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dT1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VI_dUFi2Ee2kZb8VTZGBeg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VI_dUVi2Ee2kZb8VTZGBeg" name="spr">
+      <modelElement href="SpaceNav-core.uml#_U3ongVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dUli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dU1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VI_dVFi2Ee2kZb8VTZGBeg" name="Sprite">
+        <modelElement href="SpaceNav-core.uml#_U1AKQFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VI_dVVi2Ee2kZb8VTZGBeg" abstractOperation="true" name="update">
+      <modelElement href="SpaceNav-core.uml#_Ux_SgFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dVli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dV1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VI_dWFi2Ee2kZb8VTZGBeg" name="getxSpeed">
+      <modelElement href="SpaceNav-core.uml#_Ux_5kFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dWVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dWli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VI_dW1i2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_Ux_5kVi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VI_dXFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VI_dXVi2Ee2kZb8VTZGBeg" name="setxSpeed">
+      <modelElement href="SpaceNav-core.uml#_UyAgoFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dXli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dX1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VI_dYFi2Ee2kZb8VTZGBeg" name="xSpeed">
+        <modelElement href="SpaceNav-core.uml#_UyAgoVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VI_dYVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VI_dYli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VI_dY1i2Ee2kZb8VTZGBeg" name="getySpeed">
+      <modelElement href="SpaceNav-core.uml#_UyBHsFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_dZFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dZVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VI_dZli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_UyBHsVi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VI_dZ1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VI_daFi2Ee2kZb8VTZGBeg" name="setySpeed">
+      <modelElement href="SpaceNav-core.uml#_UyCV0Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_daVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dali2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VI_da1i2Ee2kZb8VTZGBeg" name="ySpeed">
+        <modelElement href="SpaceNav-core.uml#_UyCV0Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VI_dbFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VI_dbVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VI_dbli2Ee2kZb8VTZGBeg" name="draw">
+      <modelElement href="SpaceNav-core.uml#_U23ygFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VI_db1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VI_dcFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VI_dcVi2Ee2kZb8VTZGBeg" name="batch">
+        <modelElement href="SpaceNav-core.uml#_U25AoFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VI_dcli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VI_dc1i2Ee2kZb8VTZGBeg" name="SpriteBatch">
+          <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VKBYAFi2Ee2kZb8VTZGBeg" name="Nave4" associationsIn="_VJ6qUFi2Ee2kZb8VTZGBeg" associationsOut="_VJudEFi2Ee2kZb8VTZGBeg _VJvEIFi2Ee2kZb8VTZGBeg _VJ74cFi2Ee2kZb8VTZGBeg _VKAw8Fi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UwVssFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VKBYAVi2Ee2kZb8VTZGBeg" position="-2174.0,57.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VKBYAli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VKBYA1i2Ee2kZb8VTZGBeg" defaultValue="false" name="destruida">
+      <modelElement href="SpaceNav-core.uml#_U3HDEFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKBYBFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3IRMFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKBYBVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKBYBli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKBYB1i2Ee2kZb8VTZGBeg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKBYCFi2Ee2kZb8VTZGBeg" defaultValue="3" name="vidas">
+      <modelElement href="SpaceNav-core.uml#_U3I4QFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKBYCVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKBYCli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKBYC1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKBYDFi2Ee2kZb8VTZGBeg" defaultValue="0" name="xVel">
+      <modelElement href="SpaceNav-core.uml#_U3I4Qli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKBYDVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3JfUVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKBYDli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKBYD1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKBYEFi2Ee2kZb8VTZGBeg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKBYEVi2Ee2kZb8VTZGBeg" defaultValue="0" name="yVel">
+      <modelElement href="SpaceNav-core.uml#_U3KGYFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKBYEli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3KGYli2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKBYE1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKBYFFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKBYFVi2Ee2kZb8VTZGBeg" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKBYFli2Ee2kZb8VTZGBeg" name="spr">
+      <modelElement href="SpaceNav-core.uml#_U3KtcFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKBYF1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3LUgFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmIFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmIVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmIli2Ee2kZb8VTZGBeg" name="Sprite">
+        <modelElement href="SpaceNav-core.uml#_U1AKQFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmI1i2Ee2kZb8VTZGBeg" name="sonidoHerido">
+      <modelElement href="SpaceNav-core.uml#_U3LUgVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmJFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3L7kFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmJVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmJli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmJ1i2Ee2kZb8VTZGBeg" name="Sound">
+        <modelElement href="SpaceNav-core.uml#_U1ItIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmKFi2Ee2kZb8VTZGBeg" name="soundBala">
+      <modelElement href="SpaceNav-core.uml#_U3L7kVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmKVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3MioFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmKli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmK1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmLFi2Ee2kZb8VTZGBeg" name="Sound">
+        <modelElement href="SpaceNav-core.uml#_U1ItIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmLVi2Ee2kZb8VTZGBeg" name="txBala">
+      <modelElement href="SpaceNav-core.uml#_U3NJsFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmLli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3NJsVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmL1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmMFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmMVi2Ee2kZb8VTZGBeg" name="Texture">
+        <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmMli2Ee2kZb8VTZGBeg" defaultValue="false" name="herido">
+      <modelElement href="SpaceNav-core.uml#_U3NJsli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmM1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3NwwVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmNFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmNVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmNli2Ee2kZb8VTZGBeg" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmN1i2Ee2kZb8VTZGBeg" defaultValue="50" name="tiempoHeridoMax">
+      <modelElement href="SpaceNav-core.uml#_U3OX0Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmOFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3QNAVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmOVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmOli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmO1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmPFi2Ee2kZb8VTZGBeg" name="tiempoHerido">
+      <modelElement href="SpaceNav-core.uml#_U3Q0EFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKCmPVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3RbIFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKCmPli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKCmP1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmQFi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKCmQVi2Ee2kZb8VTZGBeg" name="misilesRestantes">
+      <modelElement href="SpaceNav-core.uml#_U3RbIVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmQli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmQ1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKCmRFi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VKCmRVi2Ee2kZb8VTZGBeg" name="estaDestruido">
+      <modelElement href="SpaceNav-core.uml#_UwoAkFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmRli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmR1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmSFi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_UwonoFi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmSVi2Ee2kZb8VTZGBeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VKCmSli2Ee2kZb8VTZGBeg" name="estaHerido">
+      <modelElement href="SpaceNav-core.uml#_UwonoVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmS1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmTFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmTVi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_UwpOsFi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmTli2Ee2kZb8VTZGBeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VKCmT1i2Ee2kZb8VTZGBeg" name="getX">
+      <modelElement href="SpaceNav-core.uml#_Uwp1wFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmUFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmUVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmUli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_Uwp1wVi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmU1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VKCmVFi2Ee2kZb8VTZGBeg" name="getY">
+      <modelElement href="SpaceNav-core.uml#_Uwqc0Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmVVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmVli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmV1i2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_UwrD4Fi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmWFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_VKCmWVi2Ee2kZb8VTZGBeg" name="checkCollision">
+      <modelElement href="SpaceNav-core.uml#_U1QB4Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmWli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmW1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmXFi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1QB4li2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmXVi2Ee2kZb8VTZGBeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VKCmXli2Ee2kZb8VTZGBeg" name="b">
+        <modelElement href="SpaceNav-core.uml#_U1QB4Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmX1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmYFi2Ee2kZb8VTZGBeg" name="Ball2">
+          <modelElement href="SpaceNav-core.uml#_UvuosFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VKCmYVi2Ee2kZb8VTZGBeg" name="Nave4">
+      <modelElement href="SpaceNav-core.uml#_U2DTIFi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VKCmYli2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VKCmY1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmZFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VKCmZVi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U2FIUli2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VKCmZli2Ee2kZb8VTZGBeg" name="Nave4">
+          <modelElement href="SpaceNav-core.uml#_UwVssFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VKCmZ1i2Ee2kZb8VTZGBeg" name="x">
+        <modelElement href="SpaceNav-core.uml#_U2D6MFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmaFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmaVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmali2Ee2kZb8VTZGBeg" name="y">
+        <modelElement href="SpaceNav-core.uml#_U2D6MVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCma1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmbFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmbVi2Ee2kZb8VTZGBeg" name="tx">
+        <modelElement href="SpaceNav-core.uml#_U2D6Mli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmbli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmb1i2Ee2kZb8VTZGBeg" name="Texture">
+          <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmcFi2Ee2kZb8VTZGBeg" name="soundChoque">
+        <modelElement href="SpaceNav-core.uml#_U2D6M1i2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmcVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmcli2Ee2kZb8VTZGBeg" name="Sound">
+          <modelElement href="SpaceNav-core.uml#_U1ItIFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmc1i2Ee2kZb8VTZGBeg" name="txBala">
+        <modelElement href="SpaceNav-core.uml#_U2D6NFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmdFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmdVi2Ee2kZb8VTZGBeg" name="Texture">
+          <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmdli2Ee2kZb8VTZGBeg" name="soundBala">
+        <modelElement href="SpaceNav-core.uml#_U2D6NVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmd1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmeFi2Ee2kZb8VTZGBeg" name="Sound">
+          <modelElement href="SpaceNav-core.uml#_U1ItIFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmeVi2Ee2kZb8VTZGBeg" name="cantMisiles">
+        <modelElement href="SpaceNav-core.uml#_U2EhQFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmeli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCme1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VKCmfFi2Ee2kZb8VTZGBeg" name="draw">
+      <modelElement href="SpaceNav-core.uml#_U2FvYFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKCmfVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKCmfli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VKCmf1i2Ee2kZb8VTZGBeg" name="batch">
+        <modelElement href="SpaceNav-core.uml#_U2FvYVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmgFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmgVi2Ee2kZb8VTZGBeg" name="SpriteBatch">
+          <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VKCmgli2Ee2kZb8VTZGBeg" name="juego">
+        <modelElement href="SpaceNav-core.uml#_U2FvYli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VKCmg1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VKCmhFi2Ee2kZb8VTZGBeg" name="PantallaJuego">
+          <modelElement href="SpaceNav-core.uml#_UxNPYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VLD50Fi2Ee2kZb8VTZGBeg" name="PantallaMenu" associationsOut="_VKwX0Fi2Ee2kZb8VTZGBeg _VK0CMVi2Ee2kZb8VTZGBeg _VK0CMli2Ee2kZb8VTZGBeg _VK13YFi2Ee2kZb8VTZGBeg _VLCrsFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_Uxp7UFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VLEg4Fi2Ee2kZb8VTZGBeg" position="34.0,394.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VLEg4Vi2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VLEg4li2Ee2kZb8VTZGBeg" name="game">
+      <modelElement href="SpaceNav-core.uml#_U3ig4Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg41i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3jH8Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEg5Fi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLEg5Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VLEg5li2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+        <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VLEg51i2Ee2kZb8VTZGBeg" name="camera">
+      <modelElement href="SpaceNav-core.uml#_U3jH8Vi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg6Fi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3jvAFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEg6Vi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLEg6li2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VLEg61i2Ee2kZb8VTZGBeg" name="OrthographicCamera">
+        <modelElement href="SpaceNav-core.uml#_U1VhcVi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VLEg7Fi2Ee2kZb8VTZGBeg" name="backgroundTx">
+      <modelElement href="SpaceNav-core.uml#_U3jvAVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg7Vi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3kWEFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEg7li2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLEg71i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VLEg8Fi2Ee2kZb8VTZGBeg" name="Texture">
+        <modelElement href="SpaceNav-core.uml#_U0-VEFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VLEg8Vi2Ee2kZb8VTZGBeg" name="backgroundSpr">
+      <modelElement href="SpaceNav-core.uml#_U3lkMFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg8li2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3mLQFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEg81i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLEg9Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VLEg9Vi2Ee2kZb8VTZGBeg" name="Sprite">
+        <modelElement href="SpaceNav-core.uml#_U1AKQFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VLEg9li2Ee2kZb8VTZGBeg" name="batch">
+      <modelElement href="SpaceNav-core.uml#_U3mLQVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg91i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3myUFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEg-Fi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VLEg-Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VLEg-li2Ee2kZb8VTZGBeg" name="SpriteBatch">
+        <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VLEg-1i2Ee2kZb8VTZGBeg" name="renderBackground">
+      <modelElement href="SpaceNav-core.uml#_UxsXkFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VLEg_Fi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEg_Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEg_li2Ee2kZb8VTZGBeg" name="render">
+      <modelElement href="SpaceNav-core.uml#_Uxs-oFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEg_1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxuMwFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhAFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Uxuz0Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhAVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhAli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VLEhA1i2Ee2kZb8VTZGBeg" name="delta">
+        <modelElement href="SpaceNav-core.uml#_UxtlsFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VLEhBFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VLEhBVi2Ee2kZb8VTZGBeg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VLEhBli2Ee2kZb8VTZGBeg" name="show">
+      <modelElement href="SpaceNav-core.uml#_Uxuz0li2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhB1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Uxva4Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhCFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxwB8Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhCVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhCli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEhC1i2Ee2kZb8VTZGBeg" name="resize">
+      <modelElement href="SpaceNav-core.uml#_UxwpAFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhDFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxxQEFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhDVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Uxx3IFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhDli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhD1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VLEhEFi2Ee2kZb8VTZGBeg" name="width">
+        <modelElement href="SpaceNav-core.uml#_UxwpAVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VLEhEVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VLEhEli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VLEhE1i2Ee2kZb8VTZGBeg" name="height">
+        <modelElement href="SpaceNav-core.uml#_UxwpAli2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VLEhFFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VLEhFVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VLEhFli2Ee2kZb8VTZGBeg" name="pause">
+      <modelElement href="SpaceNav-core.uml#_UxyeMFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhF1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxzFQFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhGFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxzsUFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhGVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhGli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEhG1i2Ee2kZb8VTZGBeg" name="resume">
+      <modelElement href="SpaceNav-core.uml#_UxzsUli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhHFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Ux06cFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhHVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Ux1hgFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhHli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhH1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEhIFi2Ee2kZb8VTZGBeg" name="hide">
+      <modelElement href="SpaceNav-core.uml#_Ux1hgli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhIVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Ux2voFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhIli2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Ux3WsFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhI1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhJFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEhJVi2Ee2kZb8VTZGBeg" name="dispose">
+      <modelElement href="SpaceNav-core.uml#_Ux39wFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VLEhJli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Ux39wVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VLEhJ1i2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Ux4k0Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VLEhKFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhKVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VLEhKli2Ee2kZb8VTZGBeg" name="PantallaMenu">
+      <modelElement href="SpaceNav-core.uml#_U1q4oFi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VLEhK1i2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VLEhLFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VLEhLVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VLEhLli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1q4pFi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VLEhL1i2Ee2kZb8VTZGBeg" name="PantallaMenu">
+          <modelElement href="SpaceNav-core.uml#_Uxp7UFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VLEhMFi2Ee2kZb8VTZGBeg" name="game">
+        <modelElement href="SpaceNav-core.uml#_U1q4oVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VLEhMVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VLEhMli2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+          <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VL5nUFi2Ee2kZb8VTZGBeg" name="PantallaGameOver" associationsOut="_VLySkFi2Ee2kZb8VTZGBeg _VL0HxFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_Uw3RIFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VL5nUVi2Ee2kZb8VTZGBeg" position="-485.0,153.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VL5nUli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VL5nU1i2Ee2kZb8VTZGBeg" name="game">
+      <modelElement href="SpaceNav-core.uml#_U3SCMFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5nVFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3SpQFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nVVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VL5nVli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VL5nV1i2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+        <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VL5nWFi2Ee2kZb8VTZGBeg" name="camera">
+      <modelElement href="SpaceNav-core.uml#_U3TQUFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5nWVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3TQUVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nWli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VL5nW1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VL5nXFi2Ee2kZb8VTZGBeg" name="OrthographicCamera">
+        <modelElement href="SpaceNav-core.uml#_U1VhcVi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VL5nXVi2Ee2kZb8VTZGBeg" name="render">
+      <modelElement href="SpaceNav-core.uml#_Uw5tYFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5nXli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Uw8JoFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nX1i2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Uw-l4Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nYFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5nYVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VL5nYli2Ee2kZb8VTZGBeg" name="delta">
+        <modelElement href="SpaceNav-core.uml#_Uw7ikFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VL5nY1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VL5nZFi2Ee2kZb8VTZGBeg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VL5nZVi2Ee2kZb8VTZGBeg" name="show">
+      <modelElement href="SpaceNav-core.uml#_Uw_M8Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5nZli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxAbEFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nZ1i2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxBCIFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5naFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5naVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VL5nali2Ee2kZb8VTZGBeg" name="resize">
+      <modelElement href="SpaceNav-core.uml#_UxBpMFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5na1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxC3UFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nbFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxDeYFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nbVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5nbli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VL5nb1i2Ee2kZb8VTZGBeg" name="width">
+        <modelElement href="SpaceNav-core.uml#_UxBpMVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VL5ncFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VL5ncVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VL5ncli2Ee2kZb8VTZGBeg" name="height">
+        <modelElement href="SpaceNav-core.uml#_UxCQQFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VL5nc1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VL5ndFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VL5ndVi2Ee2kZb8VTZGBeg" name="pause">
+      <modelElement href="SpaceNav-core.uml#_UxEFcFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5ndli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxFTkFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nd1i2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxF6oFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5neFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5neVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VL5neli2Ee2kZb8VTZGBeg" name="resume">
+      <modelElement href="SpaceNav-core.uml#_UxF6oli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5ne1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxGhsFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nfFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxHIwFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nfVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5nfli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VL5nf1i2Ee2kZb8VTZGBeg" name="hide">
+      <modelElement href="SpaceNav-core.uml#_UxHIwli2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5ngFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxHv0Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5ngVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxIW4Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5ngli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5ng1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VL5nhFi2Ee2kZb8VTZGBeg" name="dispose">
+      <modelElement href="SpaceNav-core.uml#_UxI98Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VL5nhVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxJlAFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VL5nhli2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxJlAVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VL5nh1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5niFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VL5niVi2Ee2kZb8VTZGBeg" name="PantallaGameOver">
+      <modelElement href="SpaceNav-core.uml#_U1Zy4Fi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VL5nili2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VL5ni1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VL5njFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VL5njVi2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1Zy5Fi2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VL5njli2Ee2kZb8VTZGBeg" name="PantallaGameOver">
+          <modelElement href="SpaceNav-core.uml#_Uw3RIFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VL5nj1i2Ee2kZb8VTZGBeg" name="game">
+        <modelElement href="SpaceNav-core.uml#_U1Zy4Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VL5nkFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VL5nkVi2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+          <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VMaksFi2Ee2kZb8VTZGBeg" name="PantallaJuego" associationsOut="_VKeD8Fi2Ee2kZb8VTZGBeg _VJ6qUFi2Ee2kZb8VTZGBeg _VMGboFi2Ee2kZb8VTZGBeg _VMHpwFi2Ee2kZb8VTZGBeg _VMHpwVi2Ee2kZb8VTZGBeg _VMIQ0Fi2Ee2kZb8VTZGBeg _VMUeEFi2Ee2kZb8VTZGBeg _VMW6UFi2Ee2kZb8VTZGBeg _VMYIcFi2Ee2kZb8VTZGBeg _VMZ9oFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UxNPYFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VMaksVi2Ee2kZb8VTZGBeg" position="-1093.0,515.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VMaksli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VMaks1i2Ee2kZb8VTZGBeg" name="game">
+      <modelElement href="SpaceNav-core.uml#_U3T3YFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMaktFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMaktVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMaktli2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+        <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMakt1i2Ee2kZb8VTZGBeg" name="camera">
+      <modelElement href="SpaceNav-core.uml#_U3UecVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMakuFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3VFgFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMakuVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMakuli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMaku1i2Ee2kZb8VTZGBeg" name="OrthographicCamera">
+        <modelElement href="SpaceNav-core.uml#_U1VhcVi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMakvFi2Ee2kZb8VTZGBeg" name="batch">
+      <modelElement href="SpaceNav-core.uml#_U3VFgVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMakvVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3VFgli2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMakvli2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMakv1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMakwFi2Ee2kZb8VTZGBeg" name="SpriteBatch">
+        <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMakwVi2Ee2kZb8VTZGBeg" name="explosionSound">
+      <modelElement href="SpaceNav-core.uml#_U3VskFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMakwli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3WToFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMakw1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMakxFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMakxVi2Ee2kZb8VTZGBeg" name="Sound">
+        <modelElement href="SpaceNav-core.uml#_U1ItIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMakxli2Ee2kZb8VTZGBeg" name="gameMusic">
+      <modelElement href="SpaceNav-core.uml#_U3WToVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMakx1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3W6sFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMakyFi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMakyVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMakyli2Ee2kZb8VTZGBeg" name="Music">
+        <modelElement href="SpaceNav-core.uml#_U1fScVi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMaky1i2Ee2kZb8VTZGBeg" name="score">
+      <modelElement href="SpaceNav-core.uml#_U3W6sVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMakzFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3W6sli2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMakzVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMakzli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMakz1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak0Fi2Ee2kZb8VTZGBeg" name="ronda">
+      <modelElement href="SpaceNav-core.uml#_U3XhwFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak0Vi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3XhwVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak0li2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak01i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak1Fi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak1Vi2Ee2kZb8VTZGBeg" name="velXAsteroides">
+      <modelElement href="SpaceNav-core.uml#_U3YI0Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak1li2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3YI0Vi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak11i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak2Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak2Vi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak2li2Ee2kZb8VTZGBeg" name="velYAsteroides">
+      <modelElement href="SpaceNav-core.uml#_U3YI0li2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak21i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3Yv4Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak3Fi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak3Vi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak3li2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak31i2Ee2kZb8VTZGBeg" name="cantAsteroides">
+      <modelElement href="SpaceNav-core.uml#_U3Yv4Vi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak4Fi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3ZW8Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak4Vi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak4li2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak41i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak5Fi2Ee2kZb8VTZGBeg" defaultValue="50" name="count">
+      <modelElement href="SpaceNav-core.uml#_U3ZW8Vi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak5Vi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3Z-AFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak5li2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak51i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak6Fi2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak6Vi2Ee2kZb8VTZGBeg" name="nave">
+      <modelElement href="SpaceNav-core.uml#_U3Z-AVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMak6li2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak61i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak7Fi2Ee2kZb8VTZGBeg" name="Nave4">
+        <modelElement href="SpaceNav-core.uml#_UwVssFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak7Vi2Ee2kZb8VTZGBeg" name="tierra">
+      <modelElement href="SpaceNav-core.uml#_U3bMIFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak7li2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3bzMFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak71i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak8Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak8Vi2Ee2kZb8VTZGBeg" name="Earth">
+        <modelElement href="SpaceNav-core.uml#_UwKtkFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak8li2Ee2kZb8VTZGBeg" defaultValue="new ArrayList&lt;>()" name="balls1">
+      <modelElement href="SpaceNav-core.uml#_U3bzMVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak81i2Ee2kZb8VTZGBeg" name="Generics">
+        <modelElement href="SpaceNav-core.uml#_U3dBUFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMak9Fi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3doYFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak9Vi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak9li2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak91i2Ee2kZb8VTZGBeg" name="ArrayList">
+        <modelElement href="SpaceNav-core.uml#_U1cPIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak-Fi2Ee2kZb8VTZGBeg" defaultValue="new ArrayList&lt;>()" name="balls2">
+      <modelElement href="SpaceNav-core.uml#_U3doYVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak-Vi2Ee2kZb8VTZGBeg" name="Generics">
+        <modelElement href="SpaceNav-core.uml#_U3e2gFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMak-li2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3fdkFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMak-1i2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMak_Fi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMak_Vi2Ee2kZb8VTZGBeg" name="ArrayList">
+        <modelElement href="SpaceNav-core.uml#_U1cPIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VMak_li2Ee2kZb8VTZGBeg" defaultValue="new ArrayList&lt;>()" name="balas">
+      <modelElement href="SpaceNav-core.uml#_U3fdkVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMak_1i2Ee2kZb8VTZGBeg" name="Generics">
+        <modelElement href="SpaceNav-core.uml#_U3grsFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalAFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3hSwFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalAVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VMalAli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VMalA1i2Ee2kZb8VTZGBeg" name="ArrayList">
+        <modelElement href="SpaceNav-core.uml#_U1cPIFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VMalBFi2Ee2kZb8VTZGBeg" name="dibujaEncabezado">
+      <modelElement href="SpaceNav-core.uml#_UxSH4Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMalBVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalBli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalB1i2Ee2kZb8VTZGBeg" name="render">
+      <modelElement href="SpaceNav-core.uml#_UxSu8Fi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalCFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxT9EFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalCVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxVLMFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalCli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalC1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VMalDFi2Ee2kZb8VTZGBeg" name="delta">
+        <modelElement href="SpaceNav-core.uml#_UxSu8Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalDVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalDli2Ee2kZb8VTZGBeg" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VMalD1i2Ee2kZb8VTZGBeg" name="show">
+      <modelElement href="SpaceNav-core.uml#_UxWZUFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalEFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxXAYFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalEVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxY1kFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalEli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalE1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalFFi2Ee2kZb8VTZGBeg" name="resize">
+      <modelElement href="SpaceNav-core.uml#_UxZcoFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalFVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxaqwFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalFli2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxbR0Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalF1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalGFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_VMalGVi2Ee2kZb8VTZGBeg" name="width">
+        <modelElement href="SpaceNav-core.uml#_UxZcoVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalGli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalG1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalHFi2Ee2kZb8VTZGBeg" name="height">
+        <modelElement href="SpaceNav-core.uml#_UxaDsFi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalHVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalHli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VMalH1i2Ee2kZb8VTZGBeg" name="pause">
+      <modelElement href="SpaceNav-core.uml#_UxbR0li2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalIFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_Uxb44Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalIVi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_Uxcf8Fi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalIli2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalI1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalJFi2Ee2kZb8VTZGBeg" name="resume">
+      <modelElement href="SpaceNav-core.uml#_UxdHAFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalJVi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxdHAVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalJli2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxeVIFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalJ1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalKFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalKVi2Ee2kZb8VTZGBeg" name="hide">
+      <modelElement href="SpaceNav-core.uml#_Uxe8MVi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalKli2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxfjQFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalK1i2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxfjQVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalLFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalLVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalLli2Ee2kZb8VTZGBeg" name="dispose">
+      <modelElement href="SpaceNav-core.uml#_UxgKUFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VMalL1i2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_UxgxYFi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_VMalMFi2Ee2kZb8VTZGBeg" name="Annotations">
+        <modelElement href="SpaceNav-core.uml#_UxgxYVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VMalMVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalMli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalM1i2Ee2kZb8VTZGBeg" name="addCount">
+      <modelElement href="SpaceNav-core.uml#_UxgxY1i2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMalNFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalNVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VMalNli2Ee2kZb8VTZGBeg" name="PantallaJuego">
+      <modelElement href="SpaceNav-core.uml#_U1jj4Fi2Ee2kZb8VTZGBeg"/>
+      <keywords xmi:id="_VMalN1i2Ee2kZb8VTZGBeg" keyword="create"/>
+      <visibility xmi:id="_VMalOFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalOVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VMalOli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1kyAli2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VMalO1i2Ee2kZb8VTZGBeg" name="PantallaJuego">
+          <modelElement href="SpaceNav-core.uml#_UxNPYFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VMalPFi2Ee2kZb8VTZGBeg" name="game">
+        <modelElement href="SpaceNav-core.uml#_U1jj4Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalPVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalPli2Ee2kZb8VTZGBeg" name="SpaceNavigation">
+          <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalP1i2Ee2kZb8VTZGBeg" name="ronda">
+        <modelElement href="SpaceNav-core.uml#_U1jj4li2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalQFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalQVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalQli2Ee2kZb8VTZGBeg" name="vidas">
+        <modelElement href="SpaceNav-core.uml#_U1kK8Fi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalQ1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalRFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalRVi2Ee2kZb8VTZGBeg" name="score">
+        <modelElement href="SpaceNav-core.uml#_U1kK8Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalRli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalR1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalSFi2Ee2kZb8VTZGBeg" name="velXAsteroides">
+        <modelElement href="SpaceNav-core.uml#_U1kK8li2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalSVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalSli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalS1i2Ee2kZb8VTZGBeg" name="velYAsteroides">
+        <modelElement href="SpaceNav-core.uml#_U1kK81i2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalTFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalTVi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalTli2Ee2kZb8VTZGBeg" name="cantAsteroides">
+        <modelElement href="SpaceNav-core.uml#_U1kK9Fi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalT1i2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalUFi2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalUVi2Ee2kZb8VTZGBeg" name="moving">
+        <modelElement href="SpaceNav-core.uml#_U1kK9Vi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalUli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalU1i2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_VMalVFi2Ee2kZb8VTZGBeg" name="cantMisiles">
+        <modelElement href="SpaceNav-core.uml#_U1kK9li2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalVVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalVli2Ee2kZb8VTZGBeg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_VMalV1i2Ee2kZb8VTZGBeg" name="agregarBala">
+      <modelElement href="SpaceNav-core.uml#_U1lZEFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VMalWFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VMalWVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_VMalWli2Ee2kZb8VTZGBeg">
+        <modelElement href="SpaceNav-core.uml#_U1lZEli2Ee2kZb8VTZGBeg"/>
+        <type xmi:id="_VMalW1i2Ee2kZb8VTZGBeg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_VMalXFi2Ee2kZb8VTZGBeg" name="bb">
+        <modelElement href="SpaceNav-core.uml#_U1lZEVi2Ee2kZb8VTZGBeg"/>
+        <cardinality xmi:id="_VMalXVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+        <type xmi:id="_VMalXli2Ee2kZb8VTZGBeg" name="Bullet">
+          <modelElement href="SpaceNav-core.uml#_UwCxwFi2Ee2kZb8VTZGBeg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_VKkxoFi2Ee2kZb8VTZGBeg" name="SpaceNavigation" associationsIn="_VKeD8Fi2Ee2kZb8VTZGBeg _VKwX0Fi2Ee2kZb8VTZGBeg _VLySkFi2Ee2kZb8VTZGBeg" associationsOut="_VKeD8Vi2Ee2kZb8VTZGBeg _VKkKkFi2Ee2kZb8VTZGBeg">
+    <modelElement href="SpaceNav-core.uml#_UyK4sFi2Ee2kZb8VTZGBeg"/>
+    <visualProperties xmi:id="_VKkxoVi2Ee2kZb8VTZGBeg" position="-842.0,-77.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_VKkxoli2Ee2kZb8VTZGBeg" label="+"/>
+    <attributes xmi:id="_VKkxo1i2Ee2kZb8VTZGBeg" defaultValue="&quot;Space Navigation&quot;" name="nombreJuego">
+      <modelElement href="SpaceNav-core.uml#_U3pOkFi2Ee2kZb8VTZGBeg"/>
+      <stereotypes xmi:id="_VKkxpFi2Ee2kZb8VTZGBeg" name="LegacyStyledElement">
+        <modelElement href="SpaceNav-core.uml#_U3p1oVi2Ee2kZb8VTZGBeg"/>
+      </stereotypes>
+      <visibility xmi:id="_VKkxpVi2Ee2kZb8VTZGBeg" label="-"/>
+      <cardinality xmi:id="_VKkxpli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKkxp1i2Ee2kZb8VTZGBeg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKkxqFi2Ee2kZb8VTZGBeg" name="batch">
+      <modelElement href="SpaceNav-core.uml#_U3qcsFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxqVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxqli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKkxq1i2Ee2kZb8VTZGBeg" name="SpriteBatch">
+        <modelElement href="SpaceNav-core.uml#_U1BYYFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKkxrFi2Ee2kZb8VTZGBeg" name="font">
+      <modelElement href="SpaceNav-core.uml#_U3rDwFi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxrVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxrli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKkxr1i2Ee2kZb8VTZGBeg" name="BitmapFont">
+        <modelElement href="SpaceNav-core.uml#_U1xmUFi2Ee2kZb8VTZGBeg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_VKkxsFi2Ee2kZb8VTZGBeg" name="highScore">
+      <modelElement href="SpaceNav-core.uml#_U3rDwVi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxsVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxsli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+      <type xmi:id="_VKkxs1i2Ee2kZb8VTZGBeg" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_VKkxtFi2Ee2kZb8VTZGBeg" name="create">
+      <modelElement href="SpaceNav-core.uml#_UyMt4Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxtVi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxtli2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VKkxt1i2Ee2kZb8VTZGBeg" name="render">
+      <modelElement href="SpaceNav-core.uml#_UyMt4Vi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxuFi2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxuVi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_VKkxuli2Ee2kZb8VTZGBeg" name="dispose">
+      <modelElement href="SpaceNav-core.uml#_UyNU8Fi2Ee2kZb8VTZGBeg"/>
+      <visibility xmi:id="_VKkxu1i2Ee2kZb8VTZGBeg" label="+"/>
+      <cardinality xmi:id="_VKkxvFi2Ee2kZb8VTZGBeg" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

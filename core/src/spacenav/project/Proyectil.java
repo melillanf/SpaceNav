@@ -12,7 +12,9 @@ public abstract class Proyectil {
 	public void draw(SpriteBatch batch) {
     	spr.draw(batch);
     }
-
+	
+	public abstract void update();
+	
 	public int getxSpeed() {
 		return xSpeed;
 	}

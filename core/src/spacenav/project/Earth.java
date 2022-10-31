@@ -5,7 +5,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class Earth {
+public class Earth implements Jugable {
 	
 	//private boolean destruida = false;
     //private int vidas;
@@ -22,14 +22,26 @@ public class Earth {
     	spr.setPosition(x, 0);
     	
     }
-    public void draw(SpriteBatch batch) {
+    public void draw(SpriteBatch batch, PantallaJuego juego) {
     	spr.setPosition(x, 0);
     	spr.draw(batch);
     }
     public Sprite getSprite() {
     	return spr;
     }
-    public void moveEarth(int moving) {
-    	this.spr.setPosition(moving, moving);
-    }
+	@Override
+	public boolean checkCollision(Ball2 b) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean estaDestruido() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public boolean estaHerido() {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

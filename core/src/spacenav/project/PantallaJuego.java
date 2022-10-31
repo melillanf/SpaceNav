@@ -34,7 +34,7 @@ public class PantallaJuego implements Screen {
 
 
 	public PantallaJuego(SpaceNavigation game, int ronda, int vidas, int score,  
-			int velXAsteroides, int velYAsteroides, int cantAsteroides,int moving) {
+			int velXAsteroides, int velYAsteroides, int cantAsteroides,int moving,int cantMisiles) {
 		this.game = game;
 		this.ronda = ronda;
 		this.score = score;
@@ -47,18 +47,17 @@ public class PantallaJuego implements Screen {
 		camera.setToOrtho(false, 800, 640);
 		//inicializar assets; musica de fondo y efectos de sonido
 		explosionSound = Gdx.audio.newSound(Gdx.files.internal("explosion.ogg"));
-		explosionSound.setVolume(1,0.1f);
-		gameMusic = Gdx.audio.newMusic(Gdx.files.internal("piano-loops.wav")); //
-		
+		explosionSound.setVolume(1,0.05f);
+		gameMusic = Gdx.audio.newMusic(Gdx.files.internal("Space Battle Loop.wav")); //
 		gameMusic.setLooping(true);
-		gameMusic.setVolume(0.5f);
+		gameMusic.setVolume(0.4f);
 		gameMusic.play();
 		
 	    // cargar imagen de la nave, 64x64   
 	    nave = new Nave4(Gdx.graphics.getWidth()/2-50,30,new Texture(Gdx.files.internal("MainShip3.png")),
 	    				Gdx.audio.newSound(Gdx.files.internal("hurt.ogg")), 
 	    				new Texture(Gdx.files.internal("Rocket2.png")), 
-	    				Gdx.audio.newSound(Gdx.files.internal("pop-sound.mp3"))); 
+	    				Gdx.audio.newSound(Gdx.files.internal("pop-sound.mp3")),cantMisiles);
         nave.setVidas(vidas);
         // cargar imagen Tierra
         tierra = new Earth(new Texture(Gdx.files.internal("earth.png")),Gdx.graphics.getWidth()/2-moving);
@@ -77,11 +76,11 @@ public class PantallaJuego implements Screen {
 	}
     
 	public void dibujaEncabezado() {
-		CharSequence str = "Vidas: "+nave.getVidas()+" Sector: "+ronda;
+		CharSequence str = "Vidas: "+nave.getVidas()+" | Sector: "+ronda+" | Misiles Restantes: "+nave.getMisilesRestantes()+" |";
 		game.getFont().getData().setScale(2f);		
 		game.getFont().draw(batch, str, 10, 30);
 		game.getFont().draw(batch, "Score:"+this.score, Gdx.graphics.getWidth()-150, 30);
-		game.getFont().draw(batch, "HighScore:"+game.getHighScore(), Gdx.graphics.getWidth()/2-100, 30);
+		game.getFont().draw(batch, "HighScore:"+game.getHighScore(), Gdx.graphics.getWidth()/2+100, 30);
 	}
 	@Override
 	public void render(float delta) {
@@ -143,8 +142,8 @@ public class PantallaJuego implements Screen {
 	            	 i--;
               }   	  
   	        }
-	      
-	      if (nave.estaDestruido()) {
+	      //GameOver
+	      if (nave.estaDestruido() || nave.getMisilesRestantes()<=0) {
   			if (score > game.getHighScore())
   				game.setHighScore(score);
 	    	Screen ss = new PantallaGameOver(game);
@@ -157,8 +156,9 @@ public class PantallaJuego implements Screen {
 	      //nivel completado
 	      if (balls1.size()==0) {
 	    	  
+			int cantMisiles=cantAsteroides+12;
 			Screen ss = new PantallaJuego(game,ronda+1, nave.getVidas(), score, 
-					velXAsteroides+3, velYAsteroides+3, cantAsteroides+10,count);
+					velXAsteroides+3, velYAsteroides+3, cantAsteroides+10,count,cantMisiles);
 			ss.resize(1200, 800);
 			game.setScreen(ss);
 			

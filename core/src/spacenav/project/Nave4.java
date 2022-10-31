@@ -44,8 +44,6 @@ public class Nave4 implements Jugable {
 	        // que se mueva con teclado
 	        if (Gdx.input.isKeyJustPressed(Input.Keys.LEFT)) xVel--;
 	        if (Gdx.input.isKeyJustPressed(Input.Keys.RIGHT)) xVel++;
-        	if (Gdx.input.isKeyJustPressed(Input.Keys.DOWN)) yVel--;     
-	        if (Gdx.input.isKeyJustPressed(Input.Keys.UP)) yVel++;
         	
 	     /*   if (Gdx.input.isKeyPressed(Input.Keys.LEFT)) spr.setRotation(++rotacion);
 	        if (Gdx.input.isKeyPressed(Input.Keys.RIGHT)) spr.setRotation(--rotacion);

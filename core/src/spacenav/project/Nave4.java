@@ -17,10 +17,10 @@ public class Nave4 implements Jugable {
     private int vidas = 3;
     private float xVel = 0;
     private float yVel = 0;
-    private Sprite spr;
+    private Sprite spr;//sprite nave
     private Sound sonidoHerido;
     private Sound soundBala;
-    private Texture txBala;
+    private Texture txBala;//sp
     private boolean herido = false;
     private int tiempoHeridoMax=50;
     private int tiempoHerido;
@@ -77,7 +77,7 @@ public class Nave4 implements Jugable {
  		 }
         // disparo
         if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE) && misilesRestantes>=0) {         
-          Bullet  bala = new Bullet(spr.getX()+spr.getWidth()/2-5,spr.getY()+ spr.getHeight()-5,0,3,txBala);
+          Bullet  bala = new Bullet.BulletBuilder(spr, txBala).build();
 	      juego.agregarBala(bala);
 	      soundBala.play();
 	      misilesRestantes--;

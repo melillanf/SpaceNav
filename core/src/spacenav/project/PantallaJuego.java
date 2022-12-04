@@ -94,7 +94,8 @@ public class PantallaJuego implements Screen {
 		            Bullet b = balas.get(i);
 		            b.update();
 		            for (int j = 0; j < balls1.size(); j++) {    
-		              if (b.checkCollision(balls1.get(j))) {          
+		            	b.checkCollision(balls1.get(j));
+		              if (balls1.get(j).isDestroyed()) {          
 		            	 explosionSound.play();
 		            	 balls1.remove(j);
 		            	 balls2.remove(j);

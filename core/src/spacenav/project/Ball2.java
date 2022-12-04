@@ -28,17 +28,19 @@ public class Ball2 extends Proyectil{
         this.setySpeed(xSpeed);
         this.setySpeed(ySpeed);
     }
-    public void update() {
-        x += getxSpeed();
-        y += getySpeed();
 
-        if (x+getxSpeed() < 0 || x+getxSpeed()+getSpr().getWidth() > Gdx.graphics.getWidth())
-        	setySpeed(getxSpeed() * -1);
-        if (y+getySpeed() < 0 || y+getySpeed()+getSpr().getHeight() > Gdx.graphics.getHeight())
-        	setySpeed(getySpeed() * -1);
-        getSpr().setPosition(x, y);
+    public void updatePosition() {
+    	x += getxSpeed();
+        y += getySpeed();
+    	getSpr().setPosition(x, y);
     }
     
+    public void checkCordinates() {
+    	if (x+getxSpeed() < 0 || x+getxSpeed()+getSpr().getWidth() > Gdx.graphics.getWidth())
+          	setySpeed(getxSpeed() * -1);
+        if (y+getySpeed() < 0 || y+getySpeed()+getSpr().getHeight() > Gdx.graphics.getHeight())
+          	setySpeed(getySpeed() * -1);
+    }
     public Rectangle getArea() {
     	return getSpr().getBoundingRectangle();
     }
@@ -46,8 +48,8 @@ public class Ball2 extends Proyectil{
     	getSpr().draw(batch);
     }
     
-    public void checkCollision(Ball2 b2) {
-        if(getSpr().getBoundingRectangle().overlaps(b2.getSpr().getBoundingRectangle())){
+    public void calculateCollision(Ball2 b2) {
+    	if(getSpr().getBoundingRectangle().overlaps(b2.getSpr().getBoundingRectangle())){
         	// rebote
             if (getxSpeed() ==0) setySpeed(getxSpeed() + b2.getxSpeed()/2);
             if (b2.getxSpeed() ==0) b2.setySpeed(b2.getxSpeed() + getxSpeed()/2);
@@ -60,7 +62,6 @@ public class Ball2 extends Proyectil{
             b2.setySpeed(- b2.getySpeed()); 
         }
     }
-	
 	
     
 }

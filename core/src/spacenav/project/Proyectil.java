@@ -13,7 +13,14 @@ public abstract class Proyectil {
     	spr.draw(batch);
     }
 	
-	public abstract void update();
+	public void update(){
+		updatePosition();//posiciona el objeto
+		checkCordinates();//verifica las interacciones del objeto
+	};
+	
+	public void checkCollision(Ball2 b2) {
+		calculateCollision(b2);
+	}
 	
 	public int getxSpeed() {
 		return xSpeed;
@@ -47,5 +54,11 @@ public abstract class Proyectil {
 		this.spr = spr;
 	}
 	
-	
+	public void setxySpeed(int x, int y) {
+		this.xSpeed = x;
+		this.ySpeed = y;
+	}
+	public abstract void updatePosition();
+	public abstract void checkCordinates();
+	public abstract void calculateCollision(Ball2 b2);
 }

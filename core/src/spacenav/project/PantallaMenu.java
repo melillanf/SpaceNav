@@ -20,6 +20,7 @@ public class PantallaMenu implements Screen {
 	public PantallaMenu(SpaceNavigation game) {
 		this.game = game;
         
+		
 		camera = new OrthographicCamera();
 		camera.setToOrtho(false, 1200, 800);
         backgroundTx = new Texture(Gdx.files.internal("menu.png"));

@@ -16,11 +16,11 @@ public class Bullet extends Proyectil{
 	    	
 	    }
 	    
-	    public void updatePosition() {
+	    public void updatePosition() {//1st step
 	    	getSpr().setPosition(getSpr().getX()+getxSpeed(), getSpr().getY()+getySpeed());
 	    }
 	    
-	    public void checkCordinates() {
+	    public void checkCordinates() {//2nd step
 	    	if (getSpr().getX() < 0 || getSpr().getX()+getSpr().getWidth() > Gdx.graphics.getWidth()) {
 	            setDestroyed(true);
 	        }
@@ -29,7 +29,7 @@ public class Bullet extends Proyectil{
 	        }
 	    }
 	    
-	    public void calculateCollision(Ball2 b2) {
+	    public void calculateCollision(Ball2 b2) {//3rd step
 	    	 if(getSpr().getBoundingRectangle().overlaps(b2.getArea())){
 		        	// Se destruyen ambos
 		            setDestroyed(true);

@@ -20,7 +20,8 @@ public class SpaceNavigation extends Game {
 		font = new BitmapFont(); // usa Arial font x defecto
 		font.getData().setScale(2f);
 		Screen ss = new PantallaMenu(this);
-		this.setScreen(ss);
+		InGame mainGame = 
+		this.setScreen(mainGame.getScreen());
 	}
 
 	public void render() {

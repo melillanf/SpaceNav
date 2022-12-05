@@ -43,15 +43,18 @@ public class PantallaMenu implements Screen {
 		game.getFont().draw(game.getBatch(), "Presiona ESPACIO para comenzar a defender la Tierra...", 250, 200);
 	
 		game.getBatch().end();
-
-		if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
-			Screen ss = new PantallaJuego(game,1,3,0,1,1,10,1,15);
-			ss.resize(1200, 800);
-			game.setScreen(ss);
-			dispose();
-		}
+		
+		checkGameStarts();
+		
 	}
 	
+	public void checkGameStarts() {
+		
+		if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE)) {
+			InGame director = InGame.getInstance(game);
+			director.switchToJuego(game);
+		}
+	}
 	
 	@Override
 	public void show() {

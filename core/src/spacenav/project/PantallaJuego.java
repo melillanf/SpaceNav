@@ -31,17 +31,17 @@ public class PantallaJuego implements Screen {
 	private  ArrayList<Ball2> balls1 = new ArrayList<>();
 	private  ArrayList<Ball2> balls2 = new ArrayList<>();
 	private  ArrayList<Bullet> balas = new ArrayList<>();
-
+	private InGame gameDirector ;
 
 	public PantallaJuego(SpaceNavigation game, int ronda, int vidas, int score,  
-			int velXAsteroides, int velYAsteroides, int cantAsteroides,int moving,int cantMisiles) {
+			int velXAsteroides, int velYAsteroides, int cantAsteroides,int moving,int cantMisiles, InGame director) {
 		this.game = game;
 		this.ronda = ronda;
 		this.score = score;
 		this.velXAsteroides = velXAsteroides;
 		this.velYAsteroides = velYAsteroides;
 		this.cantAsteroides = cantAsteroides;
-		
+		this.gameDirector = director;
 		batch = game.getBatch();
 		camera = new OrthographicCamera();	
 		camera.setToOrtho(false, 800, 640);
@@ -144,29 +144,27 @@ public class PantallaJuego implements Screen {
               }   	  
   	        }
 	      //GameOver
-	      if (nave.estaDestruido() || nave.getMisilesRestantes()<=0) {
-  			if (score > game.getHighScore())
-  				game.setHighScore(score);
-	    	Screen ss = new PantallaGameOver(game);
-  			ss.resize(1200, 800);
-  			game.setScreen(ss);
-  			dispose();
-  		  }
+	      checkGameOver();
 	      batch.end();
 	      addCount();
 	      //nivel completado
-	      if (balls1.size()==0) {
-	    	  
-			int cantMisiles=cantAsteroides+12;
-			Screen ss = new PantallaJuego(game,ronda+1, nave.getVidas(), score, 
-					velXAsteroides+3, velYAsteroides+3, cantAsteroides+10,count,cantMisiles);
-			ss.resize(1200, 800);
-			game.setScreen(ss);
-			
-			dispose();
-		  } 	 
+	      checkNextLevel(); 	 
 	}
+    public void checkGameOver() {
+    	if (nave.estaDestruido() || nave.getMisilesRestantes()<=0) {
+  			if (score > game.getHighScore())
+  				game.setHighScore(score);
+  			gameDirector.switchToGameOver(game);
+  			dispose();
+  		  }
+    }
     
+    public void checkNextLevel() {
+    	if(balls1.size()==0) {
+    		gameDirector.nextLevel(this);;
+    		dispose();
+    	}
+    }
     public boolean agregarBala(Bullet bb) {
     	return balas.add(bb);
     }
@@ -210,5 +208,58 @@ public class PantallaJuego implements Screen {
 	public void addCount() {
 		count+=1;
 	}
-   
+   public SpaceNavigation getGame() {
+	   return game;
+   }
+
+public int getRonda() {
+	return ronda;
+}
+
+public void setRonda(int ronda) {
+	this.ronda = ronda;
+}
+
+public int getVelXAsteroides() {
+	return velXAsteroides;
+}
+
+public void setVelXAsteroides(int velXAsteroides) {
+	this.velXAsteroides = velXAsteroides;
+}
+
+public int getVelYAsteroides() {
+	return velYAsteroides;
+}
+
+public void setVelYAsteroides(int velYAsteroides) {
+	this.velYAsteroides = velYAsteroides;
+}
+
+public int getCantAsteroides() {
+	return cantAsteroides;
+}
+
+public void setCantAsteroides(int cantAsteroides) {
+	this.cantAsteroides = cantAsteroides;
+}
+
+public int getCount() {
+	return count;
+}
+
+public void setCount(int count) {
+	this.count = count;
+}
+
+public Nave4 getNave() {
+	return nave;
+}
+
+public void setNave(Nave4 nave) {
+	this.nave = nave;
+}
+public int getScore() {
+	return score;
+}
 }
